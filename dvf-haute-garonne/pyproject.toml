@@ -1,0 +1,17 @@
+[project]
+name = "dvf-toulouse"
+version = "0.1.0"
+description = "Analyse du marché immobilier résidentiel en Haute-Garonne à partir des données DVF
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.5",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+    "seaborn>=0.13.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

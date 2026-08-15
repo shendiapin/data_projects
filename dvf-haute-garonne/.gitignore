@@ -1,0 +1,7 @@
+data/*
+!data/processed/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+power_bi/*.pbix
